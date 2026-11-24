@@ -46,6 +46,8 @@ export default class QueueService {
         this.loaded = true
 
         await emmitter.emitAndWait('queue:ready', { queue: this })
+
+        this.logger.info('started')
     }
 
     public async listDefinitions() {

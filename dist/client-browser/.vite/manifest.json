@@ -1,0 +1,8 @@
+{
+  "src/client/index.ts": {
+    "file": "zenith-plugin-queue.mjs",
+    "name": "index",
+    "src": "src/client/index.ts",
+    "isEntry": true
+  }
+}

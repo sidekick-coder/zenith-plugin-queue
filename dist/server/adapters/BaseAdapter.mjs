@@ -1,0 +1,1 @@
+import{BaseException as e}from"@sidekick-coder/zenith-kit/shared";var t=class{async register(t){let n=new e(`Method not implemented`);throw Object.assign(n,{definition:t}),n}async dispatch(t,n){let r=new e(`Method not implemented`);throw Object.assign(r,{definition:t,data:n}),r}listQueues(){throw new e(`Method not implemented`)}};export{t as default};

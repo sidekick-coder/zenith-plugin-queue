@@ -1,0 +1,1 @@
+import e from"../facades/queue.mjs";import{CliCommand as t}from"@sidekick-coder/zenith-kit/server";const n=new t(`queue:run`);n.description(`Run the queue worker`).helpGroup(`queue`).action(async()=>{await e.run()});export{n as default};

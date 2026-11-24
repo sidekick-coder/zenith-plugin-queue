@@ -1,0 +1,1 @@
+import e from"../facades/queue.mjs";import{CliCommand as t}from"@sidekick-coder/zenith-kit/server";const n=new t(`queue:list-definitions`);n.description(`List all defintions in the queue`).helpGroup(`queue`).action(async()=>{let t=(await e.listDefinitions()).map(e=>({id:e.id,description:e.description||``}));n.table(t)});export{n as default};

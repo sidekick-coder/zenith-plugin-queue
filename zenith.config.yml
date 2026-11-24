@@ -1,4 +1,5 @@
 id: 01M873ZCCTGAR2VM9ATKW2FRHY
+name: queues
 description: add queue feature to zenith
 branches:
     - branch: main
